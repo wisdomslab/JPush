@@ -3,7 +3,9 @@
 提供JPush SDK CocoaPods的镜像，由于官方没有提供相应的服务且网上未找到最新版本的CocoaPods Spec镜像，因此做个镜像方便大家使用CocoaPods 管理 JPush SDK 服务的项目  
 =
 
-`pod 'JPushSDK', '~> 1.7.3'`
+`pod 'JPushSDK', '~> 1.7.4'`
+
+*PS:因1.7.3版本的spec信息错误导致无法使用，修复该spec错误信息产生与官网版本不符的1.7.4版本*
 
 ##JPush iOS SDK v1.7.3 版本发布
 Change Log
