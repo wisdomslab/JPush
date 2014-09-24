@@ -4,9 +4,10 @@
 //
 //  Created by JPush on 12-8-15.
 //  Copyright (c) 2012年 HXHG. All rights reserved.
-//  Version: 1.7.3
+//  Version: 1.7.4
 
 #import <Foundation/Foundation.h>
+
 
 extern NSString *const kAPNetworkDidSetupNotification;     // 建立连接
 extern NSString *const kAPNetworkDidCloseNotification;     // 关闭连接
@@ -62,7 +63,22 @@ extern NSString *const kAPServiceErrorNotification;  // 错误提示
 + (NSString *)openUDID DEPRECATED_ATTRIBUTE;  // UDID
 
 /**
- *  get RegistionID
+ *  get RegistrationID
  */
-+ (NSString *)registrionID;
++ (NSString *)registrationID;
+
+/**
+ *  set Badge
+ *  @param value 设置JPush服务器的badge的值
+ *  本地仍须调用UIApplication:setApplicationIconBadgeNumber函数设置badge
+ */
++(BOOL)setBadge:(NSInteger)value;
+/**
+ *  reset Badge
+ *  @param value 清除JPush服务器对badge值的设定.
+ *  本地仍须调用UIApplication:setApplicationIconBadgeNumber函数设置badge
+ */
+
++(void)resetBadge;
+
 @end
