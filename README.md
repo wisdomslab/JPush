@@ -54,7 +54,7 @@ Change Log
 新版本不再需要 libPushSDK-Simulator.a 。如果你的老版本 SDK 包含此文件，请删除。  
 
 ##技术支持
-详情请查看官网最新的技术支持文档：[http://docs.jpush.cn/](http://docs.jpush.cn)
+详情请查看官网最新的技术支持文档：[http://docs.jpush.cn/](http://docs.jpush.cn)  或 [http://docs.jpush.io/](http://docs.jpush.io/)
 
 若需要手动下载请到[官网下载最新的版本](https://www.jpush.cn/sdk/ios/)
 
