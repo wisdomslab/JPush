@@ -10,7 +10,7 @@
 ##JPush iOS SDK v1.8.2 版本发布
 
 Change Log
-优化改进：修复一些可能引起崩溃问题
+优化改进：修复一些可能引起崩溃问题  
 优化改进：修复部分情况下获取不到 RegistrationID 的问题
 
 ##JPush iOS SDK v1.8.1 版本发布  
