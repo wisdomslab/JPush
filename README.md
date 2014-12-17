@@ -3,9 +3,15 @@
 提供JPush SDK CocoaPods的镜像，由于官方没有提供相应的服务且网上未找到最新版本的CocoaPods Spec镜像，因此做个镜像方便大家使用CocoaPods 管理 JPush SDK 服务的项目  
 =
 
-`pod 'JPushSDK', '~> 1.8.1'`
+`pod 'JPushSDK', '~> 1.8.2'`
 
 *PS:对于旧版本 xcode 用户或者暂不想支持到 iOS 8 的可以继续使用旧的版本* `pod 'JPushSDK', '~>1.7.4'`
+
+##JPush iOS SDK v1.8.2 版本发布
+
+Change Log
+优化改进：修复一些可能引起崩溃问题
+优化改进：修复部分情况下获取不到 RegistrationID 的问题
 
 ##JPush iOS SDK v1.8.1 版本发布  
 
