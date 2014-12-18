@@ -1,6 +1,6 @@
 {
   "name": "JPushSDK",
-  "version": "1.8.2.a",
+  "version": "1.8.2",
   "summary": "JPush SDK for iOS.",
   "description": "JPush SDK for iOS. \n极光推送管理Portal提供易用的消息推送工具，使得您公司的业务运营人员，能够很简单方便地操作、推送通知。\n            详情请查看官网：http://www.jpush.cn/ \n",
   "homepage": "http://www.jpush.cn/",
@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://github.com/wisdomslab/JPush.git",
-    "tag": "1.8.2.a"
+    "tag": "1.8.2"
   },
   "source_files": "lib/*.h",
   "preserve_paths": "lib/*.a",
