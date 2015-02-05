@@ -21,6 +21,7 @@
   },
   "source_files": "lib/*.h",
   "preserve_paths": "lib/*.a",
+  "vendored_libraries": "lib/*.a",
   "libraries": "z",
   "frameworks": [
     "UIKit",
